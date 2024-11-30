@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelompok 7</title>
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <div class="countdown-text">
+          <span class="span skewBg">Welcome</span>
+        </div>
+
+        <div class="social-wrapper">
+
+          <p class="social-title">Follow us on :</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">Riot Games</a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="news.html" class="navbar-link skewBg" data-nav-link>News</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="games.html" class="navbar-link skewBg" data-nav-link>Games</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="about.html" class="navbar-link skewBg" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="FaQ.html" class="navbar-link skewBg" data-nav-link>FaQ</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link skewBg" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+
+          <button class="search-btn" aria-label="open search" data-search-toggler>
+            <a href="login_register.html"><img style="background: white;" src="assets/images/log-out-regular-24.png"></a>
+           </button>
+
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" class="menu"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Content -->
+  <div class="container-contact">
+    <form action="contact.html">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="bengkulu">Bengkulu</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="bandung">Bandung</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+    </main>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
